@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cs1",
+    "title": "National SPSS Training Rollout — Dhaka Medical College",
+    "shortDescription": "Trained 200+ clinicians across 6 departments on applied biostatistics.",
+    "externalUrl": "https://example.com/case-studies/dmc-spss-rollout"
+  },
+  {
+    "id": "cs2",
+    "title": "Multi-center Systematic Review Support Program",
+    "shortDescription": "Supported 12 research teams through PRISMA-compliant systematic reviews.",
+    "externalUrl": "https://example.com/case-studies/multi-center-review"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "w1",
+    "slug": "spss-data-analysis-workshop",
+    "title": "SPSS Data Analysis Workshop",
+    "shortDescription": "Intensive 3-day hands-on SPSS workshop.",
+    "description": "A fast-paced, hands-on workshop covering practical SPSS techniques for medical and academic researchers.",
+    "icon": "chart",
+    "duration": "3 Days",
+    "modules": ["Data Entry & Cleaning", "Descriptive & Inferential Stats", "Regression Modeling"]
+  },
+  {
+    "id": "w2",
+    "slug": "manuscript-writing-workshop",
+    "title": "Manuscript Writing Workshop",
+    "shortDescription": "Turn your research into a publication-ready manuscript.",
+    "description": "A focused workshop guiding participants through drafting a complete manuscript from raw data.",
+    "icon": "document",
+    "duration": "2 Days",
+    "modules": ["IMRaD Structure", "Results Writing", "Discussion & Conclusion"]
+  },
+  {
+    "id": "w3",
+    "slug": "systematic-review-workshop",
+    "title": "Systematic Review Workshop",
+    "shortDescription": "Learn PRISMA-based systematic review methodology.",
+    "description": "Practical training on conducting a PRISMA-compliant systematic review from protocol to synthesis.",
+    "icon": "layers",
+    "duration": "3 Days",
+    "modules": ["Protocol Registration", "Search Strategy", "Data Synthesis"]
+  },
+  {
+    "id": "w4",
+    "slug": "ai-tools-for-research-workshop",
+    "title": "AI Tools for Research Workshop",
+    "shortDescription": "Explore AI tools to enhance research efficiency.",
+    "description": "Hands-on exposure to AI-assisted literature review, writing, and data analysis tools for modern researchers.",
+    "icon": "cpu",
+    "duration": "2 Days",
+    "modules": ["AI Literature Screening", "AI-Assisted Writing", "Ethical Use of AI"]
+  },
+  {
+    "id": "w5",
+    "slug": "research-ethics-workshop",
+    "title": "Research Ethics Workshop",
+    "shortDescription": "Foundations of ethical clinical and academic research.",
+    "description": "An essential workshop on research ethics, informed consent, and institutional review board processes.",
+    "icon": "shield",
+    "duration": "1 Day",
+    "modules": ["Informed Consent", "IRB Submission", "Research Misconduct Prevention"]
+  }
+]

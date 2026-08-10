@@ -1,0 +1,91 @@
+[
+  {
+    "id": "c1",
+    "slug": "research-methodology",
+    "title": "Research Methodology",
+    "shortDescription": "Understand the fundamentals of research step by step.",
+    "description": "A comprehensive foundation course covering research design, hypothesis formulation, sampling techniques, and data collection strategies for clinical and academic research.",
+    "icon": "search",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "modules": [
+      "Introduction to Research Design",
+      "Formulating Research Questions & Hypotheses",
+      "Sampling Techniques & Sample Size Calculation",
+      "Data Collection Methods",
+      "Ethical Considerations in Research",
+      "Final Assessment & Certification"
+    ]
+  },
+  {
+    "id": "c2",
+    "slug": "research-proposal-writing",
+    "title": "Research Proposal Writing",
+    "shortDescription": "Write strong, ethical and fundable research proposals.",
+    "description": "Learn to craft compelling, ethically sound research proposals that meet institutional review board and funding body standards.",
+    "icon": "edit",
+    "duration": "4 Weeks",
+    "level": "Intermediate",
+    "modules": [
+      "Anatomy of a Winning Proposal",
+      "Literature Review & Gap Analysis",
+      "Budgeting & Timeline Planning",
+      "IRB & Ethics Submission",
+      "Final Assessment & Certification"
+    ]
+  },
+  {
+    "id": "c3",
+    "slug": "biostatistics-using-spss",
+    "title": "Biostatistics using SPSS",
+    "shortDescription": "Master data analysis and interpretation with SPSS.",
+    "description": "Hands-on training in descriptive and inferential biostatistics using SPSS, including hypothesis testing, regression, and reporting.",
+    "icon": "chart",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "modules": [
+      "SPSS Interface & Data Management",
+      "Descriptive Statistics",
+      "Hypothesis Testing (t-test, ANOVA, Chi-square)",
+      "Correlation & Regression Analysis",
+      "Survival Analysis Basics",
+      "Reporting Results (APA Style)",
+      "Final Assessment & Certification"
+    ]
+  },
+  {
+    "id": "c4",
+    "slug": "scientific-writing",
+    "title": "Scientific Writing",
+    "shortDescription": "Write publications with clarity, impact and precision.",
+    "description": "Develop the skills to write clear, structured, and publication-ready scientific manuscripts for peer-reviewed journals.",
+    "icon": "document",
+    "duration": "5 Weeks",
+    "level": "Intermediate",
+    "modules": [
+      "Structuring a Manuscript (IMRaD)",
+      "Writing the Introduction & Discussion",
+      "Effective Data Presentation",
+      "Avoiding Plagiarism & Citation Management",
+      "Final Assessment & Certification"
+    ]
+  },
+  {
+    "id": "c5",
+    "slug": "systematic-review-meta-analysis",
+    "title": "Systematic Review & Meta-analysis",
+    "shortDescription": "Conduct high-quality reviews and meta-analyses step by step.",
+    "description": "A rigorous course on PRISMA-guided systematic review methodology and meta-analytic techniques using standard software.",
+    "icon": "layers",
+    "duration": "8 Weeks",
+    "level": "Advanced",
+    "modules": [
+      "PRISMA Guidelines & Protocol Registration",
+      "Systematic Search Strategy",
+      "Study Screening & Quality Appraisal",
+      "Data Extraction & Synthesis",
+      "Meta-analysis using RevMan",
+      "Final Assessment & Certification"
+    ]
+  }
+]

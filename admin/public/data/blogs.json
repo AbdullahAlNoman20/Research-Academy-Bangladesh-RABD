@@ -1,0 +1,57 @@
+[
+  {
+    "id": "b1",
+    "slug": "how-to-choose-a-research-topic",
+    "title": "How to Choose the Right Research Topic",
+    "shortDescription": "A practical framework for selecting a research topic that matters.",
+    "description": "Choosing the right research topic is the foundation of a successful study. This article walks through a practical framework covering relevance, feasibility, and originality to help early-career researchers make confident decisions.",
+    "icon": "lightbulb",
+    "author": "Dr. Momena Begum",
+    "publishedDate": "2026-02-10",
+    "tags": ["research", "beginners"]
+  },
+  {
+    "id": "b2",
+    "slug": "common-mistakes-in-manuscript-writing",
+    "title": "5 Common Mistakes in Manuscript Writing",
+    "shortDescription": "Avoid these pitfalls that lead to manuscript rejection.",
+    "description": "Reviewers often reject manuscripts for avoidable reasons. This article breaks down the five most common mistakes researchers make and how to fix them before submission.",
+    "icon": "document",
+    "author": "Dr. Momena Begum",
+    "publishedDate": "2026-03-02",
+    "tags": ["writing", "publication"]
+  },
+  {
+    "id": "b3",
+    "slug": "understanding-p-values",
+    "title": "Understanding P-Values: A Practical Guide",
+    "shortDescription": "Demystifying one of the most misunderstood statistical concepts.",
+    "description": "P-values are widely used but frequently misinterpreted. This guide explains what a p-value actually tells you and how to report it correctly in your research.",
+    "icon": "chart",
+    "author": "Research Academy Team",
+    "publishedDate": "2026-03-20",
+    "tags": ["statistics", "biostatistics"]
+  },
+  {
+    "id": "b4",
+    "slug": "ai-tools-every-researcher-should-know",
+    "title": "AI Tools Every Researcher Should Know in 2026",
+    "shortDescription": "A curated list of AI tools accelerating modern research.",
+    "description": "From literature screening to data visualization, AI tools are transforming how research is conducted. This article curates the most useful tools for 2026.",
+    "icon": "cpu",
+    "author": "Research Academy Team",
+    "publishedDate": "2026-04-15",
+    "tags": ["ai", "tools"]
+  },
+  {
+    "id": "b5",
+    "slug": "navigating-the-irb-process",
+    "title": "Navigating the IRB Approval Process",
+    "shortDescription": "A step-by-step guide to getting ethical clearance for your study.",
+    "description": "The IRB approval process can feel daunting for first-time researchers. This guide simplifies each step, from submission to approval.",
+    "icon": "shield",
+    "author": "Dr. Momena Begum",
+    "publishedDate": "2026-05-05",
+    "tags": ["ethics", "irb"]
+  }
+]

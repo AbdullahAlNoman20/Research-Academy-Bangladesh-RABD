@@ -1,0 +1,37 @@
+[
+  {
+    "id": "r1",
+    "title": "Research Proposal Template",
+    "shortDescription": "A ready-to-use, IRB-compliant proposal template.",
+    "icon": "document",
+    "fileName": "research-proposal-template.pdf"
+  },
+  {
+    "id": "r2",
+    "title": "SPSS Quick Reference Guide",
+    "shortDescription": "Cheat sheet for common SPSS statistical procedures.",
+    "icon": "chart",
+    "fileName": "spss-quick-reference.pdf"
+  },
+  {
+    "id": "r3",
+    "title": "Manuscript Checklist (IMRaD)",
+    "shortDescription": "A pre-submission checklist for journal-ready manuscripts.",
+    "icon": "check",
+    "fileName": "manuscript-checklist.pdf"
+  },
+  {
+    "id": "r4",
+    "title": "Systematic Review PRISMA Flow Template",
+    "shortDescription": "Editable PRISMA flow diagram template.",
+    "icon": "layers",
+    "fileName": "prisma-flow-template.pdf"
+  },
+  {
+    "id": "r5",
+    "title": "Informed Consent Form Sample",
+    "shortDescription": "A sample ethics-compliant informed consent form.",
+    "icon": "shield",
+    "fileName": "informed-consent-sample.pdf"
+  }
+]
