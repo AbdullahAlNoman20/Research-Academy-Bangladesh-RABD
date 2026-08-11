@@ -1,37 +1,52 @@
 [
   {
     "id": "r1",
+    "slug": "research-proposal-template",
     "title": "Research Proposal Template",
     "shortDescription": "A ready-to-use, IRB-compliant proposal template.",
-    "icon": "document",
+    "image": "/images/resources/research-proposal-template.jpg",
+    "whatsIncluded": ["Editable Word template with pre-built sections", "Sample budget justification table", "IRB consent form annex"],
+    "howToUse": ["Download and open in Microsoft Word", "Replace bracketed placeholders with your study details", "Submit alongside your institution's IRB checklist"],
     "fileName": "research-proposal-template.pdf"
   },
   {
     "id": "r2",
+    "slug": "spss-quick-reference",
     "title": "SPSS Quick Reference Guide",
     "shortDescription": "Cheat sheet for common SPSS statistical procedures.",
-    "icon": "chart",
+    "image": "/images/resources/spss-quick-reference.jpg",
+    "whatsIncluded": ["Step-by-step menu paths for common tests", "Interpretation guide for output tables"],
+    "howToUse": ["Keep open alongside SPSS while analyzing data", "Match your test type to the relevant section"],
     "fileName": "spss-quick-reference.pdf"
   },
   {
     "id": "r3",
+    "slug": "manuscript-checklist",
     "title": "Manuscript Checklist (IMRaD)",
     "shortDescription": "A pre-submission checklist for journal-ready manuscripts.",
-    "icon": "check",
+    "image": "/images/resources/manuscript-checklist.jpg",
+    "whatsIncluded": ["Section-by-section checklist", "Common reviewer-flagged issues list"],
+    "howToUse": ["Review each item before submission", "Tick off completed sections with your co-authors"],
     "fileName": "manuscript-checklist.pdf"
   },
   {
     "id": "r4",
+    "slug": "prisma-flow-template",
     "title": "Systematic Review PRISMA Flow Template",
     "shortDescription": "Editable PRISMA flow diagram template.",
-    "icon": "layers",
+    "image": "/images/resources/prisma-flow-template.jpg",
+    "whatsIncluded": ["Editable PRISMA 2020 flow diagram", "Instructions for reporting exclusions"],
+    "howToUse": ["Edit numbers directly in the template", "Insert into your manuscript's methods section"],
     "fileName": "prisma-flow-template.pdf"
   },
   {
     "id": "r5",
+    "slug": "informed-consent-sample",
     "title": "Informed Consent Form Sample",
     "shortDescription": "A sample ethics-compliant informed consent form.",
-    "icon": "shield",
+    "image": "/images/resources/informed-consent-sample.jpg",
+    "whatsIncluded": ["Full sample consent form", "Plain-language summary section example"],
+    "howToUse": ["Adapt to your specific study context", "Have your IRB review before use"],
     "fileName": "informed-consent-sample.pdf"
   }
 ]

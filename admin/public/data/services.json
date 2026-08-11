@@ -5,19 +5,9 @@
     "title": "Research Training",
     "shortDescription": "Structured training programs for institutions and individuals.",
     "description": "End-to-end research training programs designed for medical institutions, hospitals, and universities to build in-house research capacity.",
-    "icon": "graduation",
-    "roadmap": [
-      "Needs Assessment & Curriculum Design",
-      "Foundational Workshops",
-      "Applied Practicum with Real Datasets",
-      "Mentored Project Execution",
-      "Certification & Outcome Review"
-    ],
-    "gallery": [
-      "Training session with 40+ clinicians, Dhaka Medical College",
-      "Hands-on SPSS lab, Chittagong Medical University",
-      "Certificate distribution ceremony, 2024 cohort"
-    ]
+    "image": "/images/services/research-training.jpg",
+    "roadmap": ["Needs Assessment & Curriculum Design", "Foundational Workshops", "Applied Practicum with Real Datasets", "Mentored Project Execution", "Certification & Outcome Review"],
+    "gallery": ["/images/services/research-training-gallery-1.jpg", "/images/services/research-training-gallery-2.jpg"]
   },
   {
     "id": "s2",
@@ -25,18 +15,9 @@
     "title": "Scientific Writing Support",
     "shortDescription": "Manuscript development and editing support for publication.",
     "description": "One-on-one and group support for drafting, editing, and refining manuscripts for submission to indexed journals.",
-    "icon": "document",
-    "roadmap": [
-      "Manuscript Assessment",
-      "Structural & Language Editing",
-      "Figures & Tables Optimization",
-      "Journal Selection & Formatting",
-      "Submission Support"
-    ],
-    "gallery": [
-      "Manuscript review workshop, 2023",
-      "One-on-one editing session"
-    ]
+    "image": "/images/services/scientific-writing-support.jpg",
+    "roadmap": ["Manuscript Assessment", "Structural & Language Editing", "Figures & Tables Optimization", "Journal Selection & Formatting", "Submission Support"],
+    "gallery": ["/images/services/scientific-writing-support.jpg"]
   },
   {
     "id": "s3",
@@ -44,17 +25,9 @@
     "title": "Biostatistics Support",
     "shortDescription": "Statistical analysis and consultation for research studies.",
     "description": "Expert biostatistics consultation covering study design, sample size calculation, analysis, and result interpretation.",
-    "icon": "chart",
-    "roadmap": [
-      "Study Design Consultation",
-      "Sample Size & Power Calculation",
-      "Data Cleaning & Analysis",
-      "Results Interpretation & Reporting",
-      "Reviewer Response Support"
-    ],
-    "gallery": [
-      "Statistical consultation clinic, 2024"
-    ]
+    "image": "/images/services/biostatistics-support.jpg",
+    "roadmap": ["Study Design Consultation", "Sample Size & Power Calculation", "Data Cleaning & Analysis", "Results Interpretation & Reporting", "Reviewer Response Support"],
+    "gallery": ["/images/services/biostatistics-support.jpg"]
   },
   {
     "id": "s4",
@@ -62,17 +35,9 @@
     "title": "Publication Support",
     "shortDescription": "End-to-end support from submission to acceptance.",
     "description": "Comprehensive support through the journal submission pipeline including cover letters, revisions, and reviewer responses.",
-    "icon": "book",
-    "roadmap": [
-      "Journal Shortlisting",
-      "Submission Package Preparation",
-      "Revision & Response to Reviewers",
-      "Post-acceptance Formatting",
-      "Indexing Verification"
-    ],
-    "gallery": [
-      "Successful publication celebration, 2023 cohort"
-    ]
+    "image": "/images/services/publication-support.jpg",
+    "roadmap": ["Journal Shortlisting", "Submission Package Preparation", "Revision & Response to Reviewers", "Post-acceptance Formatting", "Indexing Verification"],
+    "gallery": ["/images/services/publication-support.jpg"]
   },
   {
     "id": "s5",
@@ -80,17 +45,9 @@
     "title": "Research Mentorship",
     "shortDescription": "Personalized guidance at every step of your research journey.",
     "description": "Long-term, personalized mentorship pairing researchers with experienced academic mentors for career-length guidance.",
-    "icon": "users",
-    "roadmap": [
-      "Mentor-Mentee Matching",
-      "Individual Development Plan",
-      "Monthly Progress Reviews",
-      "Career & Publication Planning",
-      "Ongoing Alumni Network Access"
-    ],
-    "gallery": [
-      "Mentorship circle meetup, 2024"
-    ]
+    "image": "/images/services/research-mentorship.jpg",
+    "roadmap": ["Mentor-Mentee Matching", "Individual Development Plan", "Monthly Progress Reviews", "Career & Publication Planning", "Ongoing Alumni Network Access"],
+    "gallery": ["/images/services/research-mentorship.jpg"]
   },
   {
     "id": "s6",
@@ -98,15 +55,8 @@
     "title": "Consultation",
     "shortDescription": "On-demand expert consultation for research challenges.",
     "description": "Flexible, on-demand consultation sessions for institutions and individuals facing specific research or academic challenges.",
-    "icon": "chat",
-    "roadmap": [
-      "Initial Discovery Call",
-      "Problem Diagnosis",
-      "Actionable Recommendation Report",
-      "Optional Follow-up Support"
-    ],
-    "gallery": [
-      "Institutional consultation session, BSMMU"
-    ]
+    "image": "/images/services/consultation.jpg",
+    "roadmap": ["Initial Discovery Call", "Problem Diagnosis", "Actionable Recommendation Report", "Optional Follow-up Support"],
+    "gallery": ["/images/services/consultation.jpg"]
   }
 ]

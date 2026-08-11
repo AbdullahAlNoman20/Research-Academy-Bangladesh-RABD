@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pr1",
+    "slug": "hematology-report-analysis",
+    "title": "Hematology Report Analysis System",
+    "shortDescription": "An intelligent system for automated interpretation of hematology reports.",
+    "status": "coming-soon"
+  },
+  {
+    "id": "pr2",
+    "slug": "cbc-leukemia-detection",
+    "title": "CBC-Based Leukemia Detection System",
+    "shortDescription": "A screening system to flag leukemia risk indicators directly from CBC report data.",
+    "status": "coming-soon"
+  }
+]

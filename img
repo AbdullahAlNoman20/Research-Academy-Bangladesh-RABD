@@ -1,0 +1,46 @@
+// ASSET PATHS — save these exact files at these exact locations
+
+src/assets/hero-video.mp4              // homepage banner background video
+src/assets/logo.jpeg                   // already used (navbar/footer/PDF watermark)
+src/assets/dr-momena-begum.png         // already used (hero + about)
+src/assets/signature.png               // Dr. Momena Begum digital signature (transparent PNG)
+
+public/images/courses/research-methodology.jpg
+public/images/courses/research-proposal-writing.jpg
+public/images/courses/biostatistics-using-spss.jpg
+public/images/courses/scientific-writing.jpg
+public/images/courses/systematic-review-meta-analysis.jpg
+
+public/images/services/research-training.jpg
+public/images/services/research-training-gallery-1.jpg
+public/images/services/research-training-gallery-2.jpg
+public/images/services/scientific-writing-support.jpg
+public/images/services/biostatistics-support.jpg
+public/images/services/publication-support.jpg
+public/images/services/research-mentorship.jpg
+public/images/services/consultation.jpg
+
+public/images/workshops/spss-data-analysis-workshop.jpg
+public/images/workshops/spss-data-analysis-workshop-gallery-1.jpg
+public/images/workshops/spss-data-analysis-workshop-gallery-2.jpg
+public/images/workshops/manuscript-writing-workshop.jpg
+public/images/workshops/systematic-review-workshop.jpg
+public/images/workshops/ai-tools-for-research-workshop.jpg
+public/images/workshops/research-ethics-workshop.jpg
+
+public/images/blog/how-to-choose-a-research-topic-cover.jpg
+public/images/blog/how-to-choose-a-research-topic-step-1.jpg
+public/images/blog/common-mistakes-in-manuscript-writing-cover.jpg
+public/images/blog/understanding-p-values-cover.jpg
+public/images/blog/ai-tools-every-researcher-should-know-cover.jpg
+public/images/blog/navigating-the-irb-process-cover.jpg
+
+public/images/resources/research-proposal-template.jpg
+public/images/resources/spss-quick-reference.jpg
+public/images/resources/manuscript-checklist.jpg
+public/images/resources/prisma-flow-template.jpg
+public/images/resources/informed-consent-sample.jpg
+
+public/images/publications/pub-1.jpg ... pub-7.jpg
+public/images/team/momena-begum.jpg
+public/images/team/member-2.jpg (and so on, per teamMembers.json)

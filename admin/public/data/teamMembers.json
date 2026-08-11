@@ -1,0 +1,6 @@
+[
+  { "id": "t1", "name": "Dr. Momena Begum, MD", "role": "Founder & Academic Director", "image": "/images/team/momena-begum.jpg", "bio": "Leads the academy's academic strategy, mentorship programs, and publication support initiatives." },
+  { "id": "t2", "name": "Dr. Farhan Rahman", "role": "Head of Biostatistics", "image": "/images/team/member-2.jpg", "bio": "Oversees biostatistics training and consultation across all academy programs." },
+  { "id": "t3", "name": "Sabrina Islam", "role": "Scientific Writing Lead", "image": "/images/team/member-3.jpg", "bio": "Guides manuscript development and journal submission strategy for participants." },
+  { "id": "t4", "name": "Tanvir Ahmed", "role": "Program Coordinator", "image": "/images/team/member-4.jpg", "bio": "Manages workshop logistics, scheduling, and participant support." }
+]

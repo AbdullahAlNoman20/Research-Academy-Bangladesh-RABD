@@ -4,20 +4,41 @@
     "slug": "spss-data-analysis-workshop",
     "title": "SPSS Data Analysis Workshop",
     "shortDescription": "Intensive 3-day hands-on SPSS workshop.",
-    "description": "A fast-paced, hands-on workshop covering practical SPSS techniques for medical and academic researchers.",
-    "icon": "chart",
-    "duration": "3 Days",
-    "modules": ["Data Entry & Cleaning", "Descriptive & Inferential Stats", "Regression Modeling"]
+    "description": "A fast-paced, hands-on workshop covering practical SPSS techniques for medical and academic researchers, conducted at our Dhaka training center.",
+    "image": "/images/workshops/spss-data-analysis-workshop.jpg",
+    "location": "Research Academy Bangladesh, Dhanmondi, Dhaka",
+    "date": "March 14–16, 2026",
+    "durationLabel": "3 Days",
+    "attendeesCount": 42,
+    "timeline": [
+      { "time": "Day 1 · 10:00 AM", "activity": "Registration & SPSS interface orientation" },
+      { "time": "Day 1 · 02:00 PM", "activity": "Data cleaning & descriptive statistics practice" },
+      { "time": "Day 2 · 10:00 AM", "activity": "Hypothesis testing hands-on lab" },
+      { "time": "Day 3 · 10:00 AM", "activity": "Regression modeling group exercise" },
+      { "time": "Day 3 · 03:00 PM", "activity": "Final assessment & certificate distribution" }
+    ],
+    "outcome": "38 of 42 participants successfully completed independent statistical analyses of their own datasets by the end of the workshop, with 100% certification completion.",
+    "gallery": ["/images/workshops/spss-data-analysis-workshop-gallery-1.jpg", "/images/workshops/spss-data-analysis-workshop-gallery-2.jpg"]
   },
   {
     "id": "w2",
     "slug": "manuscript-writing-workshop",
     "title": "Manuscript Writing Workshop",
     "shortDescription": "Turn your research into a publication-ready manuscript.",
-    "description": "A focused workshop guiding participants through drafting a complete manuscript from raw data.",
-    "icon": "document",
-    "duration": "2 Days",
-    "modules": ["IMRaD Structure", "Results Writing", "Discussion & Conclusion"]
+    "description": "A focused workshop guiding participants through drafting a complete manuscript from raw data, held in collaboration with a partner medical college.",
+    "image": "/images/workshops/manuscript-writing-workshop.jpg",
+    "location": "Chittagong Medical University",
+    "date": "April 5–6, 2026",
+    "durationLabel": "2 Days",
+    "attendeesCount": 30,
+    "timeline": [
+      { "time": "Day 1 · 09:30 AM", "activity": "IMRaD structure walkthrough" },
+      { "time": "Day 1 · 01:00 PM", "activity": "Results section writing lab" },
+      { "time": "Day 2 · 09:30 AM", "activity": "Discussion & conclusion writing" },
+      { "time": "Day 2 · 02:00 PM", "activity": "Peer review & certificate distribution" }
+    ],
+    "outcome": "22 draft manuscripts were produced during the workshop, 9 of which were submitted to indexed journals within 3 months.",
+    "gallery": ["/images/workshops/manuscript-writing-workshop.jpg"]
   },
   {
     "id": "w3",
@@ -25,9 +46,18 @@
     "title": "Systematic Review Workshop",
     "shortDescription": "Learn PRISMA-based systematic review methodology.",
     "description": "Practical training on conducting a PRISMA-compliant systematic review from protocol to synthesis.",
-    "icon": "layers",
-    "duration": "3 Days",
-    "modules": ["Protocol Registration", "Search Strategy", "Data Synthesis"]
+    "image": "/images/workshops/systematic-review-workshop.jpg",
+    "location": "Research Academy Bangladesh, Dhanmondi, Dhaka",
+    "date": "May 10–12, 2026",
+    "durationLabel": "3 Days",
+    "attendeesCount": 25,
+    "timeline": [
+      { "time": "Day 1 · 10:00 AM", "activity": "PRISMA protocol & PROSPERO registration" },
+      { "time": "Day 2 · 10:00 AM", "activity": "Search strategy & screening practice" },
+      { "time": "Day 3 · 10:00 AM", "activity": "Data synthesis & meta-analysis intro" }
+    ],
+    "outcome": "6 systematic review protocols were registered on PROSPERO by participant teams during the workshop period.",
+    "gallery": ["/images/workshops/systematic-review-workshop.jpg"]
   },
   {
     "id": "w4",
@@ -35,9 +65,17 @@
     "title": "AI Tools for Research Workshop",
     "shortDescription": "Explore AI tools to enhance research efficiency.",
     "description": "Hands-on exposure to AI-assisted literature review, writing, and data analysis tools for modern researchers.",
-    "icon": "cpu",
-    "duration": "2 Days",
-    "modules": ["AI Literature Screening", "AI-Assisted Writing", "Ethical Use of AI"]
+    "image": "/images/workshops/ai-tools-for-research-workshop.jpg",
+    "location": "Online (Live Session)",
+    "date": "June 2–3, 2026",
+    "durationLabel": "2 Days",
+    "attendeesCount": 65,
+    "timeline": [
+      { "time": "Day 1 · 07:00 PM", "activity": "AI literature screening tools demo" },
+      { "time": "Day 2 · 07:00 PM", "activity": "AI-assisted writing & ethical use guidelines" }
+    ],
+    "outcome": "Participant feedback rated the workshop 4.8/5 for practical applicability to ongoing research projects.",
+    "gallery": ["/images/workshops/ai-tools-for-research-workshop.jpg"]
   },
   {
     "id": "w5",
@@ -45,8 +83,17 @@
     "title": "Research Ethics Workshop",
     "shortDescription": "Foundations of ethical clinical and academic research.",
     "description": "An essential workshop on research ethics, informed consent, and institutional review board processes.",
-    "icon": "shield",
-    "duration": "1 Day",
-    "modules": ["Informed Consent", "IRB Submission", "Research Misconduct Prevention"]
+    "image": "/images/workshops/research-ethics-workshop.jpg",
+    "location": "Dhaka Medical College",
+    "date": "July 8, 2026",
+    "durationLabel": "1 Day",
+    "attendeesCount": 55,
+    "timeline": [
+      { "time": "09:00 AM", "activity": "Principles of informed consent" },
+      { "time": "12:00 PM", "activity": "IRB submission walkthrough" },
+      { "time": "03:00 PM", "activity": "Case discussion on research misconduct" }
+    ],
+    "outcome": "All 55 participants completed the institutional ethics certification requirement.",
+    "gallery": ["/images/workshops/research-ethics-workshop.jpg"]
   }
 ]

@@ -1,18 +1,16 @@
-// FILE: src/pages/Resources.jsx
+// FILE: src/pages/Resources.jsx  (full rewrite — image cards linking to ResourceDetail)
 import { useEffect, useState } from 'react';
 import SEO from '../components/shared/SEO';
 import SectionHeading from '../components/shared/SectionHeading';
-import Icon from '../components/shared/Icon';
 import Loader from '../components/shared/Loader';
 import EmptyState from '../components/shared/EmptyState';
 import { fetchJson } from '../services/api';
-import { useToast } from '../hooks/useToast';
+import { Link } from 'react-router-dom';
 
 export default function Resources() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { showToast } = useToast();
 
   useEffect(() => {
     let active = true;
@@ -22,10 +20,6 @@ export default function Resources() {
       .finally(() => active && setLoading(false));
     return () => { active = false; };
   }, []);
-
-  function handleDownload(name) {
-    showToast(`${name} download started.`, 'success');
-  }
 
   return (
     <>
@@ -38,20 +32,14 @@ export default function Resources() {
         {!loading && !error && items.length > 0 && (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((r) => (
-              <div key={r.id} className="flex flex-col rounded-xl border border-neutral-100 bg-white p-6 shadow-card">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                  <Icon name={r.icon} className="h-6 w-6" />
+              <Link key={r.id} to={`/resources/${r.slug}`} className="hover-topline flex flex-col overflow-hidden rounded-lg border border-neutral-100 bg-white">
+                <img src={r.image} alt={r.title} className="h-40 w-full object-cover" width="300" height="160" loading="lazy" />
+                <div className="flex flex-1 flex-col p-5">
+                  <h3 className="mb-2 text-lg font-semibold text-primary">{r.title}</h3>
+                  <p className="mb-4 flex-1 text-sm text-neutral-700">{r.shortDescription}</p>
+                  <span className="hover-underline-gold w-fit text-sm font-semibold text-primary">View & Download →</span>
                 </div>
-                <h3 className="mb-2 text-lg font-semibold text-primary">{r.title}</h3>
-                <p className="mb-4 flex-1 text-sm text-neutral-700">{r.shortDescription}</p>
-                <button
-                  type="button"
-                  onClick={() => handleDownload(r.title)}
-                  className="inline-flex items-center gap-1 text-sm font-semibold text-secondary-dark hover:text-primary"
-                >
-                  Download <span aria-hidden="true">↓</span>
-                </button>
-              </div>
+              </Link>
             ))}
           </div>
         )}

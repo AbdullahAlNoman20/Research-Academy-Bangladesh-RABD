@@ -4,17 +4,59 @@
     "slug": "research-methodology",
     "title": "Research Methodology",
     "shortDescription": "Understand the fundamentals of research step by step.",
-    "description": "A comprehensive foundation course covering research design, hypothesis formulation, sampling techniques, and data collection strategies for clinical and academic research.",
-    "icon": "search",
+    "description": "A comprehensive foundation course covering research design, hypothesis formulation, sampling techniques, and data collection strategies for clinical and academic research. Ideal for early-career researchers building a rigorous methodological base.",
+    "image": "/images/courses/research-methodology.jpg",
     "duration": "6 Weeks",
     "level": "Beginner",
     "modules": [
-      "Introduction to Research Design",
-      "Formulating Research Questions & Hypotheses",
-      "Sampling Techniques & Sample Size Calculation",
-      "Data Collection Methods",
-      "Ethical Considerations in Research",
-      "Final Assessment & Certification"
+      {
+        "title": "Introduction to Research Design",
+        "points": [
+          "Quantitative vs qualitative approaches",
+          "Cross-sectional, cohort and case-control designs",
+          "Choosing the right design for your question"
+        ]
+      },
+      {
+        "title": "Formulating Research Questions & Hypotheses",
+        "points": [
+          "PICO framework",
+          "Null vs alternative hypotheses",
+          "Common pitfalls in question framing"
+        ]
+      },
+      {
+        "title": "Sampling Techniques & Sample Size Calculation",
+        "points": [
+          "Probability vs non-probability sampling",
+          "Power analysis basics",
+          "Using G*Power for sample size"
+        ]
+      },
+      {
+        "title": "Data Collection Methods",
+        "points": [
+          "Designing valid questionnaires",
+          "Primary vs secondary data sources",
+          "Minimizing measurement bias"
+        ]
+      },
+      {
+        "title": "Ethical Considerations in Research",
+        "points": [
+          "Informed consent principles",
+          "IRB submission essentials",
+          "Data privacy and confidentiality"
+        ]
+      },
+      {
+        "title": "Final Assessment & Certification",
+        "points": [
+          "Capstone research proposal",
+          "Peer review session",
+          "Certificate issuance"
+        ]
+      }
     ]
   },
   {
@@ -22,16 +64,51 @@
     "slug": "research-proposal-writing",
     "title": "Research Proposal Writing",
     "shortDescription": "Write strong, ethical and fundable research proposals.",
-    "description": "Learn to craft compelling, ethically sound research proposals that meet institutional review board and funding body standards.",
-    "icon": "edit",
+    "description": "Learn to craft compelling, ethically sound research proposals that meet institutional review board and funding body standards, from problem statement to budget justification.",
+    "image": "/images/courses/research-proposal-writing.jpg",
     "duration": "4 Weeks",
     "level": "Intermediate",
     "modules": [
-      "Anatomy of a Winning Proposal",
-      "Literature Review & Gap Analysis",
-      "Budgeting & Timeline Planning",
-      "IRB & Ethics Submission",
-      "Final Assessment & Certification"
+      {
+        "title": "Anatomy of a Winning Proposal",
+        "points": [
+          "Structure and formatting standards",
+          "Writing a compelling problem statement",
+          "Objectives and specific aims"
+        ]
+      },
+      {
+        "title": "Literature Review & Gap Analysis",
+        "points": [
+          "Systematic vs narrative reviews",
+          "Identifying research gaps",
+          "Citation management tools"
+        ]
+      },
+      {
+        "title": "Budgeting & Timeline Planning",
+        "points": [
+          "Direct vs indirect costs",
+          "Gantt chart timeline planning",
+          "Justifying resource allocation"
+        ]
+      },
+      {
+        "title": "IRB & Ethics Submission",
+        "points": [
+          "Preparing consent documents",
+          "Risk-benefit assessment",
+          "Responding to IRB queries"
+        ]
+      },
+      {
+        "title": "Final Assessment & Certification",
+        "points": [
+          "Full proposal submission",
+          "Mock review panel",
+          "Certificate issuance"
+        ]
+      }
     ]
   },
   {
@@ -39,18 +116,67 @@
     "slug": "biostatistics-using-spss",
     "title": "Biostatistics using SPSS",
     "shortDescription": "Master data analysis and interpretation with SPSS.",
-    "description": "Hands-on training in descriptive and inferential biostatistics using SPSS, including hypothesis testing, regression, and reporting.",
-    "icon": "chart",
+    "description": "Hands-on training in descriptive and inferential biostatistics using SPSS, including hypothesis testing, regression, survival analysis, and professional reporting.",
+    "image": "/images/courses/biostatistics-using-spss.jpg",
     "duration": "8 Weeks",
     "level": "Intermediate",
     "modules": [
-      "SPSS Interface & Data Management",
-      "Descriptive Statistics",
-      "Hypothesis Testing (t-test, ANOVA, Chi-square)",
-      "Correlation & Regression Analysis",
-      "Survival Analysis Basics",
-      "Reporting Results (APA Style)",
-      "Final Assessment & Certification"
+      {
+        "title": "SPSS Interface & Data Management",
+        "points": [
+          "Variable view vs data view",
+          "Importing and cleaning datasets",
+          "Recoding and computing variables"
+        ]
+      },
+      {
+        "title": "Descriptive Statistics",
+        "points": [
+          "Measures of central tendency",
+          "Frequency tables and charts",
+          "Checking normality"
+        ]
+      },
+      {
+        "title": "Hypothesis Testing (t-test, ANOVA, Chi-square)",
+        "points": [
+          "Independent vs paired t-tests",
+          "One-way and two-way ANOVA",
+          "Chi-square test of independence"
+        ]
+      },
+      {
+        "title": "Correlation & Regression Analysis",
+        "points": [
+          "Pearson and Spearman correlation",
+          "Simple and multiple linear regression",
+          "Logistic regression basics"
+        ]
+      },
+      {
+        "title": "Survival Analysis Basics",
+        "points": [
+          "Kaplan-Meier curves",
+          "Log-rank test",
+          "Cox proportional hazards"
+        ]
+      },
+      {
+        "title": "Reporting Results (APA Style)",
+        "points": [
+          "Table formatting standards",
+          "Reporting p-values and effect sizes",
+          "Common reviewer critiques"
+        ]
+      },
+      {
+        "title": "Final Assessment & Certification",
+        "points": [
+          "Applied dataset analysis project",
+          "Results write-up",
+          "Certificate issuance"
+        ]
+      }
     ]
   },
   {
@@ -59,15 +185,50 @@
     "title": "Scientific Writing",
     "shortDescription": "Write publications with clarity, impact and precision.",
     "description": "Develop the skills to write clear, structured, and publication-ready scientific manuscripts for peer-reviewed journals.",
-    "icon": "document",
+    "image": "/images/courses/scientific-writing.jpg",
     "duration": "5 Weeks",
     "level": "Intermediate",
     "modules": [
-      "Structuring a Manuscript (IMRaD)",
-      "Writing the Introduction & Discussion",
-      "Effective Data Presentation",
-      "Avoiding Plagiarism & Citation Management",
-      "Final Assessment & Certification"
+      {
+        "title": "Structuring a Manuscript (IMRaD)",
+        "points": [
+          "Introduction structure",
+          "Methods reproducibility standards",
+          "Results vs discussion distinction"
+        ]
+      },
+      {
+        "title": "Writing the Introduction & Discussion",
+        "points": [
+          "Building a persuasive narrative",
+          "Contextualizing findings",
+          "Addressing limitations honestly"
+        ]
+      },
+      {
+        "title": "Effective Data Presentation",
+        "points": [
+          "Choosing tables vs figures",
+          "Designing clear graphs",
+          "Avoiding data duplication"
+        ]
+      },
+      {
+        "title": "Avoiding Plagiarism & Citation Management",
+        "points": [
+          "Paraphrasing techniques",
+          "Reference manager tools",
+          "Understanding self-plagiarism"
+        ]
+      },
+      {
+        "title": "Final Assessment & Certification",
+        "points": [
+          "Draft manuscript submission",
+          "Peer feedback round",
+          "Certificate issuance"
+        ]
+      }
     ]
   },
   {
@@ -76,16 +237,58 @@
     "title": "Systematic Review & Meta-analysis",
     "shortDescription": "Conduct high-quality reviews and meta-analyses step by step.",
     "description": "A rigorous course on PRISMA-guided systematic review methodology and meta-analytic techniques using standard software.",
-    "icon": "layers",
+    "image": "/images/courses/systematic-review-meta-analysis.jpg",
     "duration": "8 Weeks",
     "level": "Advanced",
     "modules": [
-      "PRISMA Guidelines & Protocol Registration",
-      "Systematic Search Strategy",
-      "Study Screening & Quality Appraisal",
-      "Data Extraction & Synthesis",
-      "Meta-analysis using RevMan",
-      "Final Assessment & Certification"
+      {
+        "title": "PRISMA Guidelines & Protocol Registration",
+        "points": [
+          "PRISMA-P checklist",
+          "PROSPERO registration",
+          "Defining eligibility criteria"
+        ]
+      },
+      {
+        "title": "Systematic Search Strategy",
+        "points": [
+          "Building Boolean search strings",
+          "Multi-database searching",
+          "Grey literature searching"
+        ]
+      },
+      {
+        "title": "Study Screening & Quality Appraisal",
+        "points": [
+          "Title/abstract vs full-text screening",
+          "Risk of bias tools (Cochrane RoB2)",
+          "Resolving reviewer disagreements"
+        ]
+      },
+      {
+        "title": "Data Extraction & Synthesis",
+        "points": [
+          "Standardized extraction forms",
+          "Narrative synthesis",
+          "Handling heterogeneity"
+        ]
+      },
+      {
+        "title": "Meta-analysis using RevMan",
+        "points": [
+          "Fixed vs random effects models",
+          "Forest plot interpretation",
+          "Publication bias assessment"
+        ]
+      },
+      {
+        "title": "Final Assessment & Certification",
+        "points": [
+          "End-to-end review project",
+          "Manuscript-ready output",
+          "Certificate issuance"
+        ]
+      }
     ]
   }
 ]

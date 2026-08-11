@@ -1,3 +1,4 @@
+// FILE: tailwind.config.js  (full rewrite — no scale-hover, marquee keyframes added)
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
@@ -17,8 +18,32 @@ export default {
         sans: ["Inter", "system-ui", "sans-serif"],
         serif: ["Merriweather", "serif"],
       },
-      boxShadow: {
-        card: "0 4px 20px rgba(15, 42, 82, 0.08)",
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
+        fadeIn: {
+          from: { opacity: 0, transform: "translateY(6px)" },
+          to: { opacity: 1, transform: "translateY(0)" },
+        },
+        fadeSlide: {
+          "0%": { opacity: 0, transform: "translateY(10px)" },
+          "10%": { opacity: 1, transform: "translateY(0)" },
+          "90%": { opacity: 1 },
+          "100%": { opacity: 0, transform: "translateY(-10px)" },
+        },
+        shine: {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
+      },
+      animation: {
+        marquee: "marquee 30s linear infinite",
+        "marquee-slow": "marquee 50s linear infinite",
+        fadeIn: "fadeIn 0.2s ease-out",
+        fadeSlide: "fadeSlide 5s ease-in-out infinite",
+        shine: "shine 2.5s linear infinite",
       },
     },
   },

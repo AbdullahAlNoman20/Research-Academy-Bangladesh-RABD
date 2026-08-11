@@ -1,4 +1,4 @@
-// FILE: src/pages/ContentList.jsx
+// FILE: src/pages/ContentList.jsx  (unchanged logic, image cards via updated ContentCard — full rewrite for clarity)
 import { useEffect, useState } from 'react';
 import SEO from '../components/shared/SEO';
 import SectionHeading from '../components/shared/SectionHeading';

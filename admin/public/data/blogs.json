@@ -4,54 +4,71 @@
     "slug": "how-to-choose-a-research-topic",
     "title": "How to Choose the Right Research Topic",
     "shortDescription": "A practical framework for selecting a research topic that matters.",
-    "description": "Choosing the right research topic is the foundation of a successful study. This article walks through a practical framework covering relevance, feasibility, and originality to help early-career researchers make confident decisions.",
-    "icon": "lightbulb",
+    "image": "/images/blog/how-to-choose-a-research-topic-cover.jpg",
     "author": "Dr. Momena Begum",
     "publishedDate": "2026-02-10",
-    "tags": ["research", "beginners"]
+    "tags": ["research", "beginners"],
+    "content": [
+      { "heading": "Start with Relevance", "text": "A strong topic addresses a real clinical or academic gap. Review recent literature to confirm the question hasn't already been conclusively answered.", "image": "/images/blog/how-to-choose-a-research-topic-step-1.jpg" },
+      { "heading": "Assess Feasibility", "text": "Consider your access to data, time, budget, and ethical clearance requirements before committing to a topic.", "image": "" },
+      { "heading": "Aim for Originality", "text": "Even a well-studied area can yield a novel contribution through a new population, method, or angle.", "image": "" }
+    ]
   },
   {
     "id": "b2",
     "slug": "common-mistakes-in-manuscript-writing",
     "title": "5 Common Mistakes in Manuscript Writing",
     "shortDescription": "Avoid these pitfalls that lead to manuscript rejection.",
-    "description": "Reviewers often reject manuscripts for avoidable reasons. This article breaks down the five most common mistakes researchers make and how to fix them before submission.",
-    "icon": "document",
+    "image": "/images/blog/common-mistakes-in-manuscript-writing-cover.jpg",
     "author": "Dr. Momena Begum",
     "publishedDate": "2026-03-02",
-    "tags": ["writing", "publication"]
+    "tags": ["writing", "publication"],
+    "content": [
+      { "heading": "Weak Introduction Framing", "text": "Reviewers form early impressions from the introduction — vague problem statements are a common rejection trigger.", "image": "" },
+      { "heading": "Overloaded Results Sections", "text": "Avoid duplicating data across text, tables, and figures; each should serve a distinct purpose.", "image": "" },
+      { "heading": "Ignoring Journal Guidelines", "text": "Formatting non-compliance is one of the most preventable reasons for desk rejection.", "image": "" }
+    ]
   },
   {
     "id": "b3",
     "slug": "understanding-p-values",
     "title": "Understanding P-Values: A Practical Guide",
     "shortDescription": "Demystifying one of the most misunderstood statistical concepts.",
-    "description": "P-values are widely used but frequently misinterpreted. This guide explains what a p-value actually tells you and how to report it correctly in your research.",
-    "icon": "chart",
+    "image": "/images/blog/understanding-p-values-cover.jpg",
     "author": "Research Academy Team",
     "publishedDate": "2026-03-20",
-    "tags": ["statistics", "biostatistics"]
+    "tags": ["statistics", "biostatistics"],
+    "content": [
+      { "heading": "What a P-Value Actually Means", "text": "A p-value indicates the probability of observing your data (or more extreme) if the null hypothesis were true — not the probability the hypothesis is correct.", "image": "" },
+      { "heading": "Reporting Correctly", "text": "Always report exact p-values alongside effect sizes and confidence intervals rather than only 'p < 0.05'.", "image": "" }
+    ]
   },
   {
     "id": "b4",
     "slug": "ai-tools-every-researcher-should-know",
     "title": "AI Tools Every Researcher Should Know in 2026",
     "shortDescription": "A curated list of AI tools accelerating modern research.",
-    "description": "From literature screening to data visualization, AI tools are transforming how research is conducted. This article curates the most useful tools for 2026.",
-    "icon": "cpu",
+    "image": "/images/blog/ai-tools-every-researcher-should-know-cover.jpg",
     "author": "Research Academy Team",
     "publishedDate": "2026-04-15",
-    "tags": ["ai", "tools"]
+    "tags": ["ai", "tools"],
+    "content": [
+      { "heading": "Literature Screening", "text": "AI-assisted screening tools can cut systematic review title/abstract screening time significantly while maintaining reviewer oversight.", "image": "" },
+      { "heading": "Responsible Use", "text": "AI tools should assist, not replace, critical appraisal — always verify AI-generated summaries against source material.", "image": "" }
+    ]
   },
   {
     "id": "b5",
     "slug": "navigating-the-irb-process",
     "title": "Navigating the IRB Approval Process",
     "shortDescription": "A step-by-step guide to getting ethical clearance for your study.",
-    "description": "The IRB approval process can feel daunting for first-time researchers. This guide simplifies each step, from submission to approval.",
-    "icon": "shield",
+    "image": "/images/blog/navigating-the-irb-process-cover.jpg",
     "author": "Dr. Momena Begum",
     "publishedDate": "2026-05-05",
-    "tags": ["ethics", "irb"]
+    "tags": ["ethics", "irb"],
+    "content": [
+      { "heading": "Prepare Your Documents Early", "text": "Consent forms, data management plans, and risk assessments should be drafted well before submission deadlines.", "image": "" },
+      { "heading": "Anticipate Committee Questions", "text": "Common IRB queries relate to vulnerable populations, data storage, and withdrawal procedures — address these proactively.", "image": "" }
+    ]
   }
 ]
