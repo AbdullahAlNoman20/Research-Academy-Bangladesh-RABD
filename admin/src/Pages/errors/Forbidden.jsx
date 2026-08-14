@@ -1,6 +1,6 @@
 // FILE: src/pages/errors/Forbidden.jsx
-import SEO from '../../components/shared/SEO';
-import Button from '../../components/shared/Button';
+import SEO from "../../Components/Shared/SEO";
+import Button from "../../Components/Shared/Button";
 import logo from '../../assets/logo.jpeg';
 
 export default function Forbidden() {

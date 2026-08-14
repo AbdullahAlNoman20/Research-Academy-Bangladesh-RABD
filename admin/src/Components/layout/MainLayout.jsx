@@ -2,9 +2,9 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import ScrollToTop from '../shared/ScrollToTop';
-import ToastViewport from '../shared/Toast';
-import ErrorBoundary from '../shared/ErrorBoundary';
+import ScrollToTop from "../Shared/ScrollToTop";
+import ToastViewport from "../Shared/Toast";
+import ErrorBoundary from "../Shared/ErrorBoundary";
 import WhatsAppFloatButton from '../shared/WhatsAppFloatButton';
 
 export default function MainLayout() {
