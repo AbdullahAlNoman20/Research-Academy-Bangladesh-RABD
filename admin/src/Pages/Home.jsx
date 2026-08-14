@@ -1,15 +1,15 @@
 // FILE: src/pages/Home.jsx  (full rewrite — video hero, sliding text, marquees, publications, distinct CTA, projects teaser)
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import SEO from "../components/shared/SEO";
-import SectionHeading from "../components/shared/SectionHeading";
-import Button from "../components/shared/Button";
-import ContentCard from "../components/ui/ContentCard";
-import TestimonialCard from "../components/ui/TestimonialCard";
-import PublicationCard from "../components/ui/PublicationCard";
-import Marquee from "../components/shared/Marquee";
-import Icon from "../components/shared/Icon";
-import Loader from "../components/shared/Loader";
+import SEO from "../Components/Shared/SEO";
+import SectionHeading from "../Components/Shared/SectionHeading";
+import Button from "../Components/Shared/Button";
+import ContentCard from "../Components/ui/ContentCard";
+import TestimonialCard from "../Components/ui/TestimonialCard";
+import PublicationCard from "../Components/ui/PublicationCard";
+import Marquee from "../Components/Shared/Marquee";
+import Icon from "../Components/Shared/Icon";
+import Loader from "../Components/Shared/Loader";
 import { fetchJson } from "../services/api";
 import heroVideo from "../assets/hero-video.mp4";
 import { FaWhatsapp } from "react-icons/fa";
