@@ -1,22 +1,22 @@
 // FILE: src/Router.jsx  (full rewrite — dedicated detail pages, new routes)
 import { createBrowserRouter } from 'react-router-dom';
-import MainLayout from './components/layout/MainLayout';
-import Home from './pages/Home';
-import About from './pages/About';
-import ContentList from './pages/ContentList';
-import CourseDetail from './pages/CourseDetail';
-import ServiceDetail from './pages/ServiceDetail';
-import WorkshopDetail from './pages/WorkshopDetail';
-import BlogDetail from './pages/BlogDetail';
-import Resources from './pages/Resources';
-import ResourceDetail from './pages/ResourceDetail';
-import Publications from './pages/Publications';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Apply from './pages/Apply';
-import NotFound from './pages/errors/NotFound';
-import ServerError from './pages/errors/ServerError';
-import Forbidden from './pages/errors/Forbidden';
+import MainLayout from './Components/layout/MainLayout';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import ContentList from './Pages/ContentList';
+import CourseDetail from './Pages/CourseDetail';
+import ServiceDetail from './Pages/ServiceDetail';
+import WorkshopDetail from './Pages/WorkshopDetail';
+import BlogDetail from './Pages/BlogDetail';
+import Resources from './Pages/Resources';
+import ResourceDetail from './Pages/ResourceDetail';
+import Publications from './Pages/Publications';
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
+import Apply from './Pages/Apply';
+import NotFound from './Pages/errors/NotFound';
+import ServerError from './Pages/errors/ServerError';
+import Forbidden from './Pages/errors/Forbidden';
 
 const Router = createBrowserRouter([
   {
