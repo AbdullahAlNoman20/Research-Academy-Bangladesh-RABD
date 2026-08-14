@@ -1,4 +1,4 @@
-// FILE: src/components/ui/ContentCard.jsx  (full rewrite — image instead of icon, no shadow/scale, topline hover)
+// FILE: src/Components/ui/ContentCard.jsx  (full rewrite — image instead of icon, no shadow/scale, topline hover)
 import { Link } from 'react-router-dom';
 
 export default function ContentCard({ item, basePath }) {

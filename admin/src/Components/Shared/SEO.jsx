@@ -1,14 +1,24 @@
-// FILE: src/components/shared/SEO.jsx
-import { Helmet } from 'react-helmet-async';
+// FILE: src/Components/Shared/SEO.jsx
+import { Helmet } from "react-helmet-async";
 
-const SITE_NAME = 'Research Academy Bangladesh';
-const SITE_URL = 'https://www.researchacademybd.com';
+const SITE_NAME = "Research Academy Bangladesh";
+const SITE_URL = "https://www.researchacademybd.com";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
 
-export default function SEO({ title, description, path = '/', image = DEFAULT_IMAGE, noindex = false }) {
-  const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Learn. Research. Publish. Lead.`;
+export default function SEO({
+  title,
+  description,
+  path = "/",
+  image = DEFAULT_IMAGE,
+  noindex = false,
+}) {
+  const fullTitle = title
+    ? `${title} | ${SITE_NAME}`
+    : `${SITE_NAME} | Learn. Research. Publish. Lead.`;
   const canonical = `${SITE_URL}${path}`;
-  const desc = description || 'Empowering students, clinicians and professionals through world-class research education, mentorship and publication support.';
+  const desc =
+    description ||
+    "Empowering students, clinicians and professionals through world-class research education, mentorship and publication support.";
 
   return (
     <Helmet>

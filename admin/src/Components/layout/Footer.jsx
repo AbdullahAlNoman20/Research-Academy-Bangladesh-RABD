@@ -1,4 +1,4 @@
-// FILE: src/components/layout/Footer.jsx  (full rewrite — react-icons, small logo, Formspree newsletter)
+// FILE: src/Components/layout/Footer.jsx  (full rewrite — react-icons, small logo, Formspree newsletter)
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useToast } from "../../hooks/useToast";

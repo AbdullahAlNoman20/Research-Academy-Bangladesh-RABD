@@ -1,17 +1,21 @@
-// FILE: src/components/shared/Toast.jsx
-import { useToast } from '../../hooks/useToast';
+// FILE: src/Components/Shared/Toast.jsx
+import { useToast } from "../../hooks/useToast";
 
 const STYLES = {
-  success: 'bg-primary text-white border-secondary',
-  error: 'bg-red-600 text-white border-red-800',
-  info: 'bg-white text-primary border-primary'
+  success: "bg-primary text-white border-secondary",
+  error: "bg-red-600 text-white border-red-800",
+  info: "bg-white text-primary border-primary",
 };
 
 export default function ToastViewport() {
   const { toasts, removeToast } = useToast();
 
   return (
-    <div className="fixed bottom-4 right-4 z-[100] flex flex-col gap-2 w-[calc(100%-2rem)] max-w-sm" role="status" aria-live="polite">
+    <div
+      className="fixed bottom-4 right-4 z-[100] flex flex-col gap-2 w-[calc(100%-2rem)] max-w-sm"
+      role="status"
+      aria-live="polite"
+    >
       {toasts.map((t) => (
         <div
           key={t.id}

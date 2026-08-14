@@ -145,24 +145,24 @@ export default function Home() {
         </div>
       </section>
 
-<section className="border-y border-neutral-100 py-6">
-  <Marquee>
-    {FEATURES.map((f) => (
-      <div key={f.title} className="flex w-64 items-center gap-3 px-4">
-        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary/0 text-primary">
-          <Icon name={f.icon} className="h-14 w-14" />
-        </div>
+      <section className="border-y border-neutral-100 py-6">
+        <Marquee>
+          {FEATURES.map((f) => (
+            <div key={f.title} className="flex w-64 items-center gap-3 px-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary/0 text-primary">
+                <Icon name={f.icon} className="h-14 w-14" />
+              </div>
 
-        <div>
-          <h3 className="text-sm font-semibold text-primary">
-            {f.title}
-          </h3>
-          <p className="text-xs text-neutral-700">{f.text}</p>
-        </div>
-      </div>
-    ))}
-  </Marquee>
-</section>
+              <div>
+                <h3 className="text-sm font-semibold text-primary">
+                  {f.title}
+                </h3>
+                <p className="text-xs text-neutral-700">{f.text}</p>
+              </div>
+            </div>
+          ))}
+        </Marquee>
+      </section>
 
       <section className="bg-neutral-50 py-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">

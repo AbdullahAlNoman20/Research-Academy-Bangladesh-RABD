@@ -1,15 +1,15 @@
 // FILE: src/pages/ContentDetail.jsx
-import { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import SEO from '../components/shared/SEO';
-import Loader from '../components/shared/Loader';
-import Button from '../components/shared/Button';
-import Icon from '../components/shared/Icon';
-import NotFound from './errors/NotFound';
-import { fetchJson } from '../services/api';
-import { getContentType } from '../config/contentTypes';
-import { useToast } from '../hooks/useToast';
-import { generateModulePdf, generateProposalPdf } from '../utils/generatePdf';
+import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import SEO from "../Components/Shared/SEO";
+import Loader from "../Components/Shared/Loader";
+import Button from "../Components/Shared/Button";
+import Icon from "../Components/Shared/Icon";
+import NotFound from "./errors/NotFound";
+import { fetchJson } from "../services/api";
+import { getContentType } from "../config/contentTypes";
+import { useToast } from "../hooks/useToast";
+import { generateModulePdf, generateProposalPdf } from "../utils/generatePdf";
 
 export default function ContentDetail({ typeKey }) {
   const type = getContentType(typeKey);
@@ -32,7 +32,9 @@ export default function ContentDetail({ typeKey }) {
       })
       .catch(() => active && setNotFound(true))
       .finally(() => active && setLoading(false));
-    return () => { active = false; };
+    return () => {
+      active = false;
+    };
   }, [type.dataUrl, slug]);
 
   if (loading) return <Loader label="Loading details" />;
@@ -40,25 +42,36 @@ export default function ContentDetail({ typeKey }) {
 
   function handleDownload() {
     try {
-      if (type.downloadKind === 'proposal') generateProposalPdf(item);
-      else if (type.downloadKind === 'module') generateModulePdf(item);
-      showToast(`${type.downloadLabel} started.`, 'success');
+      if (type.downloadKind === "proposal") generateProposalPdf(item);
+      else if (type.downloadKind === "module") generateModulePdf(item);
+      showToast(`${type.downloadLabel} started.`, "success");
     } catch {
-      showToast('Download failed. Please try again.', 'error');
+      showToast("Download failed. Please try again.", "error");
     }
   }
 
   return (
     <>
-      <SEO title={item.title} description={item.shortDescription} path={`${type.basePath}/${item.slug}`} />
+      <SEO
+        title={item.title}
+        description={item.shortDescription}
+        path={`${type.basePath}/${item.slug}`}
+      />
 
       <section className="bg-primary text-white">
         <div className="mx-auto max-w-5xl px-4 py-14 lg:px-8">
-          <Link to={type.basePath} className="mb-4 inline-block text-sm text-white/70 hover:text-white">← Back to {type.label}</Link>
+          <Link
+            to={type.basePath}
+            className="mb-4 inline-block text-sm text-white/70 hover:text-white"
+          >
+            ← Back to {type.label}
+          </Link>
           <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-white/10">
             <Icon name={item.icon} className="h-7 w-7 text-secondary" />
           </div>
-          <h1 className="mb-3 font-serif text-3xl font-bold sm:text-4xl">{item.title}</h1>
+          <h1 className="mb-3 font-serif text-3xl font-bold sm:text-4xl">
+            {item.title}
+          </h1>
           <p className="max-w-2xl text-white/80">{item.shortDescription}</p>
           {(item.duration || item.level) && (
             <div className="mt-4 flex gap-4 text-sm text-white/70">
@@ -77,8 +90,13 @@ export default function ContentDetail({ typeKey }) {
             <h2 className="mb-4 text-xl font-bold text-primary">Modules</h2>
             <ol className="flex flex-col gap-3">
               {item.modules.map((m, idx) => (
-                <li key={m} className="flex items-start gap-3 rounded-lg border border-neutral-100 bg-white p-4 shadow-card">
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">{idx + 1}</span>
+                <li
+                  key={m}
+                  className="flex items-start gap-3 rounded-lg border border-neutral-100 bg-white p-4 shadow-card"
+                >
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
+                    {idx + 1}
+                  </span>
                   <span className="text-sm text-neutral-700">{m}</span>
                 </li>
               ))}
@@ -86,32 +104,43 @@ export default function ContentDetail({ typeKey }) {
           </div>
         )}
 
-        {type.hasRoadmap && Array.isArray(item.roadmap) && item.roadmap.length > 0 && (
-          <div className="mb-10">
-            <h2 className="mb-4 text-xl font-bold text-primary">Engagement Roadmap</h2>
-            <ol className="relative flex flex-col gap-6 border-l-2 border-secondary pl-6">
-              {item.roadmap.map((step, idx) => (
-                <li key={step} className="relative">
-                  <span className="absolute -left-[31px] flex h-5 w-5 items-center justify-center rounded-full bg-secondary text-[10px] font-bold text-primary">{idx + 1}</span>
-                  <p className="text-sm text-neutral-700">{step}</p>
-                </li>
-              ))}
-            </ol>
-          </div>
-        )}
-
-        {type.hasGallery && Array.isArray(item.gallery) && item.gallery.length > 0 && (
-          <div className="mb-10">
-            <h2 className="mb-4 text-xl font-bold text-primary">Gallery</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {item.gallery.map((g) => (
-                <div key={g} className="flex h-32 items-center justify-center rounded-lg bg-neutral-100 p-4 text-center text-xs text-neutral-700">
-                  {g}
-                </div>
-              ))}
+        {type.hasRoadmap &&
+          Array.isArray(item.roadmap) &&
+          item.roadmap.length > 0 && (
+            <div className="mb-10">
+              <h2 className="mb-4 text-xl font-bold text-primary">
+                Engagement Roadmap
+              </h2>
+              <ol className="relative flex flex-col gap-6 border-l-2 border-secondary pl-6">
+                {item.roadmap.map((step, idx) => (
+                  <li key={step} className="relative">
+                    <span className="absolute -left-[31px] flex h-5 w-5 items-center justify-center rounded-full bg-secondary text-[10px] font-bold text-primary">
+                      {idx + 1}
+                    </span>
+                    <p className="text-sm text-neutral-700">{step}</p>
+                  </li>
+                ))}
+              </ol>
             </div>
-          </div>
-        )}
+          )}
+
+        {type.hasGallery &&
+          Array.isArray(item.gallery) &&
+          item.gallery.length > 0 && (
+            <div className="mb-10">
+              <h2 className="mb-4 text-xl font-bold text-primary">Gallery</h2>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {item.gallery.map((g) => (
+                  <div
+                    key={g}
+                    className="flex h-32 items-center justify-center rounded-lg bg-neutral-100 p-4 text-center text-xs text-neutral-700"
+                  >
+                    {g}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
         {type.downloadKind && (
           <Button onClick={handleDownload} variant="primary">

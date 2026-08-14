@@ -1,6 +1,6 @@
-// FILE: src/components/shared/ErrorBoundary.jsx
-import { Component } from 'react';
-import ServerError from '../../pages/errors/ServerError';
+// FILE: src/Components/Shared/ErrorBoundary.jsx
+import { Component } from "react";
+import ServerError from "../../pages/errors/ServerError";
 
 export default class ErrorBoundary extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ export default class ErrorBoundary extends Component {
   componentDidCatch(error, info) {
     if (import.meta.env.DEV) {
       // eslint-disable-next-line no-console
-      console.error('ErrorBoundary caught an error:', error, info);
+      console.error("ErrorBoundary caught an error:", error, info);
     }
   }
 

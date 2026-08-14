@@ -1,5 +1,5 @@
 
-// FILE: src/components/shared/WhatsAppFloatButton.jsx  (new)
+// FILE: src/Components/Shared/WhatsAppFloatButton.jsx  (new)
 
 import { FaWhatsapp } from 'react-icons/fa';
 import { WHATSAPP_URL } from '../../config/site';

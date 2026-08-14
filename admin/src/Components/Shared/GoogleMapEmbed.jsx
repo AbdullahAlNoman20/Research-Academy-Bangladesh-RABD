@@ -1,7 +1,7 @@
-// FILE: src/components/shared/GoogleMapEmbed.jsx  (new)
-import { MAP_EMBED_URL } from '../../config/site';
+// FILE: src/Components/Shared/GoogleMapEmbed.jsx  (new)
+import { MAP_EMBED_URL } from "../../config/site";
 
-export default function GoogleMapEmbed({ title = 'Head Office Location' }) {
+export default function GoogleMapEmbed({ title = "Head Office Location" }) {
   return (
     <div className="overflow-hidden rounded-lg border border-neutral-100">
       <iframe

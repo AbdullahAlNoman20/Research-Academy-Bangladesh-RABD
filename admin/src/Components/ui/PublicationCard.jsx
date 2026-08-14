@@ -1,4 +1,4 @@
-// FILE: src/components/ui/PublicationCard.jsx  (new)
+// FILE: src/Components/ui/PublicationCard.jsx  (new)
 export default function PublicationCard({ pub }) {
   return (
     <article className="hover-topline flex flex-col overflow-hidden rounded-lg border border-neutral-100 bg-white">
