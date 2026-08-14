@@ -1,4 +1,4 @@
-// FILE: src/pages/Contact.jsx  (full rewrite — Formspree + map + FAQ)
+// FILE: src/Pages/Contact.jsx  (full rewrite — Formspree + map + FAQ)
 import { useState } from "react";
 import SEO from "../Components/Shared/SEO";
 import SectionHeading from "../Components/Shared/SectionHeading";

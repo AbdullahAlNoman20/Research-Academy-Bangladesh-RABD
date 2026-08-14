@@ -1,4 +1,4 @@
-// FILE: src/pages/Publications.jsx  (new)
+// FILE: src/Pages/Publications.jsx  (new)
 import { useEffect, useState } from "react";
 import SEO from "../Components/Shared/SEO";
 import SectionHeading from "../Components/Shared/SectionHeading";

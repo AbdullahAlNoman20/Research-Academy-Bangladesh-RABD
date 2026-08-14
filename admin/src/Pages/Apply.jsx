@@ -1,4 +1,4 @@
-// FILE: src/pages/Apply.jsx
+// FILE: src/Pages/Apply.jsx
 import { useState } from "react";
 import SEO from "../Components/Shared/SEO";
 import SectionHeading from "../Components/Shared/SectionHeading";

@@ -1,4 +1,4 @@
-// FILE: src/pages/Resources.jsx  (full rewrite — image cards linking to ResourceDetail)
+// FILE: src/Pages/Resources.jsx  (full rewrite — image cards linking to ResourceDetail)
 import { useEffect, useState } from "react";
 import SEO from "../Components/Shared/SEO";
 import SectionHeading from "../Components/Shared/SectionHeading";

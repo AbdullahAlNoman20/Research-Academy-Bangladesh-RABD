@@ -1,4 +1,4 @@
-// FILE: src/pages/ContentDetail.jsx
+// FILE: src/Pages/ContentDetail.jsx
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import SEO from "../Components/Shared/SEO";

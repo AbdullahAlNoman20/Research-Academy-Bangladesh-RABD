@@ -1,4 +1,4 @@
-// FILE: src/pages/Home.jsx  (full rewrite — video hero, sliding text, marquees, publications, distinct CTA, projects teaser)
+// FILE: src/Pages/Home.jsx  (full rewrite — video hero, sliding text, marquees, publications, distinct CTA, projects teaser)
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import SEO from "../Components/Shared/SEO";

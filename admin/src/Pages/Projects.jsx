@@ -1,4 +1,4 @@
-// FILE: src/pages/Projects.jsx  (new — "Our Work", replaces external case-study links)
+// FILE: src/Pages/Projects.jsx  (new — "Our Work", replaces external case-study links)
 import { useEffect, useState } from "react";
 import SEO from "../Components/Shared/SEO";
 import SectionHeading from "../Components/Shared/SectionHeading";

@@ -1,4 +1,4 @@
-// FILE: src/pages/About.jsx  (full rewrite — journey, mission/vision, founder signature, team)
+// FILE: src/Pages/About.jsx  (full rewrite — journey, mission/vision, founder signature, team)
 import { useEffect, useState } from "react";
 import SEO from "../Components/Shared/SEO";
 import SectionHeading from "../Components/Shared/SectionHeading";

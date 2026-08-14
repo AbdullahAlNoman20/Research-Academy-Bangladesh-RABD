@@ -1,4 +1,4 @@
-// FILE: src/pages/BlogDetail.jsx  (new — replaces generic ContentDetail for blog)
+// FILE: src/Pages/BlogDetail.jsx  (new — replaces generic ContentDetail for blog)
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import SEO from "../Components/Shared/SEO";

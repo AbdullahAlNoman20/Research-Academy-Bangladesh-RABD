@@ -1,4 +1,4 @@
-// FILE: src/Router.jsx  (full rewrite — dedicated detail pages, new routes)
+// FILE: src/Router.jsx  (full rewrite — dedicated detail Pages, new routes)
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./Components/layout/MainLayout";
 import Home from "./Pages/Home";

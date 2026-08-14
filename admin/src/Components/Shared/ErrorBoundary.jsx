@@ -1,6 +1,6 @@
 // FILE: src/Components/Shared/ErrorBoundary.jsx
 import { Component } from "react";
-import ServerError from "../../pages/errors/ServerError";
+import ServerError from "../../Pages/errors/ServerError";
 
 export default class ErrorBoundary extends Component {
   constructor(props) {

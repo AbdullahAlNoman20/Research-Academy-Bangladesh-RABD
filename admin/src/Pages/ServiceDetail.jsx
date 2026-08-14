@@ -1,4 +1,4 @@
-// FILE: src/pages/ServiceDetail.jsx  (new — replaces generic ContentDetail for services)
+// FILE: src/Pages/ServiceDetail.jsx  (new — replaces generic ContentDetail for services)
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import SEO from "../Components/Shared/SEO";

@@ -1,4 +1,4 @@
-// FILE: src/pages/errors/NotFound.jsx
+// FILE: src/Pages/errors/NotFound.jsx
 import SEO from "../../Components/Shared/SEO";
 import Button from "../../Components/Shared/Button";
 import logo from "../../assets/logo.jpeg";

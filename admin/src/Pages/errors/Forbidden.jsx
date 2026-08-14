@@ -1,4 +1,4 @@
-// FILE: src/pages/errors/Forbidden.jsx
+// FILE: src/Pages/errors/Forbidden.jsx
 import SEO from "../../Components/Shared/SEO";
 import Button from "../../Components/Shared/Button";
 import logo from "../../assets/logo.jpeg";

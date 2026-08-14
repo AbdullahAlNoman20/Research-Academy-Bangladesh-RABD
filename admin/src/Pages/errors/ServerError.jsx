@@ -1,4 +1,4 @@
-// FILE: src/pages/errors/ServerError.jsx
+// FILE: src/Pages/errors/ServerError.jsx
 import SEO from "../../Components/Shared/SEO";
 import Button from "../../Components/Shared/Button";
 import logo from "../../assets/logo.jpeg";

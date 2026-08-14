@@ -1,4 +1,4 @@
-// FILE: src/pages/CourseDetail.jsx  (new — replaces generic ContentDetail for courses)
+// FILE: src/Pages/CourseDetail.jsx  (new — replaces generic ContentDetail for courses)
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import SEO from "../Components/Shared/SEO";
