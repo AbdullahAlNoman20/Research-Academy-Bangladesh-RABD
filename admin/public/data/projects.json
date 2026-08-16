@@ -1,16 +1,22 @@
+
 [
   {
     "id": "pr1",
     "slug": "hematology-report-analysis",
-    "title": "Hematology Report Analysis System",
-    "shortDescription": "An intelligent system for automated interpretation of hematology reports.",
-    "status": "coming-soon"
+    "title": "HemaVision — Hematology Report Analysis System",
+    "shortDescription": "Accurate, fast and affordable immunophenotyping analysis, powered by an AI system built under the supervision of an expert hematologist.",
+    "status": "live",
+    "linkType": "external",
+    "externalUrl": "https://hema-vision-ytvk-orpin.vercel.app/",
+    "ctaLabel": "Try It For Yourself"
   },
   {
     "id": "pr2",
-    "slug": "cbc-leukemia-detection",
-    "title": "CBC-Based Leukemia Detection System",
-    "shortDescription": "A screening system to flag leukemia risk indicators directly from CBC report data.",
-    "status": "coming-soon"
+    "slug": "leukoscanner",
+    "title": "LeukoScanner — CBC-Based Leukemia Detection",
+    "shortDescription": "A screening tool that classifies leukemia risk directly from CBC report values.",
+    "status": "live",
+    "linkType": "internal",
+    "ctaLabel": "Try It For Yourself"
   }
 ]

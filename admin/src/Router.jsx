@@ -14,6 +14,7 @@ import Publications from "./Pages/Publications";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Apply from "./Pages/Apply";
+import LeukoScanner from './Pages/LeukoScanner';
 import NotFound from "./Pages/errors/NotFound";
 import ServerError from "./Pages/errors/ServerError";
 import Forbidden from "./Pages/errors/Forbidden";
@@ -38,6 +39,7 @@ const Router = createBrowserRouter([
       { path: "resources/:slug", element: <ResourceDetail /> },
       { path: "publications", element: <Publications /> },
       { path: "our-work", element: <Projects /> },
+      { path: 'our-work/leukoscanner', element: <LeukoScanner /> },
       { path: "contact", element: <Contact /> },
       { path: "apply", element: <Apply /> },
       { path: "403", element: <Forbidden /> },
